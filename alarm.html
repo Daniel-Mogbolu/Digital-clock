@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Digital Clock</title>
+  </head>
+
+  <body>
+    <div class="parent-cont">
+      <div class="container">
+        <div class="btn">
+          <a href="./index.html"><button id="alarmbtn">Time</button></a>
+        </div>
+        <div class="Clock">
+          <div class="alarm-control">
+            <input type="time" id="alarmTime" />
+            <button id="setBtn">Set Alarm</button>
+            <button id="clearBtn">Clear Alarm</button>
+            <p id="status"></p>
+          </div>
+          <audio
+            id="alarmAudio"
+            src="./Ego Chall - Blue Deer Studio.mp3"
+          ></audio>
+          <!-- <h2 id="greeting">Good Morning</h2>
+          <div id="time">00:00:00 <span id="status">Am</span></div>
+          <div id="date">Loading...</div> -->
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
